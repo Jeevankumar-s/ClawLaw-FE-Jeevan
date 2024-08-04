@@ -1,0 +1,63 @@
+/* General container styling */
+.orders-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .orders-heading {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Orders list styling */
+  .orders-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Individual order item styling */
+  .order-item {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  /* Order item hover effect */
+  .order-item:hover {
+    transform: translateY(-2px);
+  }
+  
+  /* Order item details */
+  .order-item p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Order ID styling */
+  .order-item p:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Loader container styling */
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 200px;
+  }
+  

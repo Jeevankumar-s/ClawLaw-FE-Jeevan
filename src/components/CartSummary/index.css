@@ -1,0 +1,26 @@
+.summary-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .checkout-btn {
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .summary-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .summary-details {
+    font-family: Cambria;
+    font-size: 15px;
+    color: black;
+  }
+  

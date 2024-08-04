@@ -1,0 +1,28 @@
+.product-item-container {
+    list-style-type: none;
+    padding: 0px;
+    overflow: auto;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .product-header {
+    font-family: Georgia;
+    font-size: 22px;
+    color: black;
+  }
+  .product-heading-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    border: 1px solid gray;
+  }
+  .container {
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+  }
+  

@@ -1,0 +1,46 @@
+.success-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .productList-container {
+    width: 100%;
+    gap: 20px;
+    overflow-x: scroll;
+  }
+  .list-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .sidebar-maincontainer {
+    list-style-type: none;
+    width: fit-content;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  .sidebar-heading {
+    font-family: Cambria;
+    font-size: 25px;
+    color: darkgreen;
+  }
+  .sidebar-category {
+    font-family: Cambria;
+    color: black;
+    cursor: pointer;
+  }
+  .isActive {
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+    font-family: Cambria;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+  }
+  

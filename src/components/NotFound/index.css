@@ -1,0 +1,22 @@
+.not-found-img {
+    width: 100%;
+    max-width: 400px;
+  }
+  .not-found-heading {
+    font-family: Cambria;
+    font-size: 20px;
+    color: black;
+  }
+  .not-found-description {
+    font-family: Cambria;
+    font-size: 15px;
+    color: black;
+  }
+  .not-found-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
